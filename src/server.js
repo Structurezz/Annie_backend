@@ -33,6 +33,8 @@ const ALLOWED_ORIGINS = [
   "http://localhost:5173",
   "http://localhost:3000",
   "https://radiant-fenglisu-da5073.netlify.app",
+  "http://localhost:5173",
+
   ...(process.env.CLIENT_URL ? process.env.CLIENT_URL.split(",").map(o => o.trim()) : []),
 ];
 
