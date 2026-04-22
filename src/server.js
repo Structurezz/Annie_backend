@@ -34,7 +34,7 @@ const ALLOWED_ORIGINS = [
   "http://localhost:3000",
   "https://radiant-fenglisu-da5073.netlify.app",
   "http://localhost:5174",
-  "https://https://anniepatricia.netlify.app",
+  "https://anniepatricia.netlify.app",
 
   ...(process.env.CLIENT_URL ? process.env.CLIENT_URL.split(",").map(o => o.trim()) : []),
 ];
